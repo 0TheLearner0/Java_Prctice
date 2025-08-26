@@ -1,10 +1,10 @@
 public class Encap{
   private String name;
 //getter method
-public String getName(String name){return name;}
+public String getName(){return name;}
 
 //Setter Methoda
-public void getName(){this.name=name;}
+public void getName(String name){this.name=name;}
 
 
 }
