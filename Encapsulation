@@ -1,1 +1,4 @@
-g
+public class Encap{
+  private String name;
+
+}
