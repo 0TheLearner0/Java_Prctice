@@ -13,4 +13,30 @@ obj.setName("Nigel");
 }
 
 
+
+public class Car{
+private String brand;
+private String model;
+private int year;
+
+public String getBrand(){return brand;}
+public String getModel(){return model;}
+public int getYear(){return year;}
+
+public void setTer(String model, String brand, int year ){
+
+this.brand=brand;
+this.model=model;
+if(year>0){this.year=year;}
+}
+public static void main(String[] arg)
+{
+Car objcar= new Car();
+objcar.setTer("Toyo","Yaris",2011);
+System.out.println("Brand: "+objcar.getBrand());
+System.out.prinlt("Model: "+objcar.getMode());
+System.out.prinlt("Model: "+objcar.getYear());
+}
+
+
 }
