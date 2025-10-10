@@ -36,6 +36,7 @@ objcar.setTer("Toyo","Yaris",2011);
 System.out.println("Brand: "+objcar.getBrand());
 System.out.prinlt("Model: "+objcar.getMode());
 System.out.prinlt("Model: "+objcar.getYear());
+System.out.prinlt("Model: "+objcar.getYear());
 }
 
 
