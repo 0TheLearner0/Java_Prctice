@@ -39,5 +39,25 @@ System.out.prinlt("Model: "+objcar.getYear());
 System.out.prinlt("Model: "+objcar.getYear());
 }
 
+public class employees{
+private String empname;
+private int empid;
+private int salary;
 
+public String getempname(){
+return empname;
+}
+public int getempid(){return empid;}
+public int getsalary(){return salary;}
+public void setempname(String empname){ this.empnname=empname;}
+public void setempid(int empid){this.empid=empid;}
+public void setempsalary(int salary){this.salary=salary;}
+public static void main(String[] arg){employees empobj=new employees();
+empobj.setempname("Zishan");
+empobj.setempid(011);
+empobj.setempsalary(12000);
+System.out.println("Name: "+empobj.setempname());
+System.out.println("empID: "+empobj.setempid());
+System.out.println("Salary: "+empobj.setempsalary());
+}
 }
