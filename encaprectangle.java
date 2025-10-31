@@ -1,4 +1,4 @@
-public class rectangle{
+public class encaprectangle{
 	private int length;
 	private int width;
 	private int s;
@@ -13,19 +13,21 @@ public class rectangle{
 	public void setWidth(int width) {if (width>0) {this.width=width;}
 	else
 		System.out.println("Please enter the Positive value");}
-	public void setArea(int s) {this.s=s;
+	public void setArea(int s) { this.s=s;
+	this.s=this.length*this.width;
+	
 	}
 	
 	
 	public static void main(String[] arg)
 	{
-		rectangle recObj=new rectangle();
+		encaprectangle recObj=new encaprectangle();
 		recObj.setLength(20);
 		recObj.setWidth(30);
-		recObj.getArea(recObj.getLength()*recObj.getWidth());
+		
 		System.out.println("Length: "+recObj.getLength());
 		System.out.println("Width: "+recObj.getWidth());
-		System.out.println("Area: "+recObj.getSum());
+		System.out.println("Area: "+recObj.getArea());
 		
 		
 		
