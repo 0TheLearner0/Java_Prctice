@@ -13,7 +13,7 @@ public class encaprectangle{
 	public void setWidth(int width) {if (width>0) {this.width=width;}
 	else
 		System.out.println("Please enter the Positive value");}
-	public void setArea(int s) { this.s=s;
+	public void setArea() { 
 	this.s=this.length*this.width;
 	
 	}
@@ -24,6 +24,8 @@ public class encaprectangle{
 		encaprectangle recObj=new encaprectangle();
 		recObj.setLength(20);
 		recObj.setWidth(30);
+		recObj.setArea();
+		
 		
 		System.out.println("Length: "+recObj.getLength());
 		System.out.println("Width: "+recObj.getWidth());
