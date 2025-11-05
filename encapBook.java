@@ -9,22 +9,18 @@ public class encapBook{
 	
 	public void setTitle(String title)
 	{if(title!=null) {this.title=title;}
-	if(title==null) {this.title=title;
-	System.out.println("Please insert value");}
+	
 	}
 	
 
 	public void setAuthor(String author)
 	{if(author!=null) {this.author=author;}
-	if(author==null) {this.author=author;
-	System.out.println("Please insert value");}
+	
 	}
 	
 	public void setPrice(int price)
-	{if(price>0) {this.price=price;}
-	if(price<0) {this.price=price;
-			System.out.println("Please insert positive value");}
-	}
+	{ {this.price=price;}}
+	
 	
 	
 	public static void main(String[] arg)
@@ -39,16 +35,24 @@ public class encapBook{
 	System.out.println("Price: "+bookObj.getPrice());
 	
 	encapBook bookObj1=new encapBook();
-	bookObj1.setTitle("The power of Subconscious mind");
-	bookObj1.setAuthor(null);
-	bookObj1.setPrice(-71);
+	bookObj1.setTitle(null);
+	bookObj1.setAuthor("Vans Hagner");
+	bookObj1.setPrice(0);
 	
-	
+	if(bookObj1.getTitle()!=null)
 	System.out.println("Title: "+bookObj1.getTitle());
-
+	else
+		System.out.println("Please insert the name of the book");
+	if(bookObj1.getAuthor()!=null)
 	System.out.println("Author: "+bookObj1.getAuthor());
+	else
+		System.out.println("Please insert the name of the Author");
 
+	if(bookObj1.getPrice()>=0)
 	System.out.println("Price: "+bookObj1.getPrice());
+	else
+		System.out.println("Please the posotive or 0 value of the book");
+
 	
 	}
 	
