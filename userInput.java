@@ -14,7 +14,20 @@ public class userInput {
 	System.out.println("Enter your profession? ");
 	profession=sc.next();
 	System.out.println("My name is "+name+". I am "+age+" years old. And I am an "+profession+".");
+	sc.close();
+	/*
+	 * Why we close the scanner ?
+	 * We close the Scanner to release system resources and prevent memory or resource leaks.
+	 * In real / large applications:
 
+Memory leaks
+
+Resource exhaustion
+
+Performance issues
+
+Warnings from IDEs
+	 */
 	}
 
 }
