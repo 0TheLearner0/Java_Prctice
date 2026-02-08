@@ -1,0 +1,43 @@
+Java Question's
+
+What is an inner class in java?
+	An inner class is a class that is nested within another class.
+
+Which method is used to return a sublist from a List in Java?
+ 	subList(start, end) returns a portion of the list.
+
+Garbage collection can be controlled by a program?
+	Garbage collection cannot be controlled by a program. A program can only request to run the garbage collector.
+
+What is try catch and finally block?
+
+What is an enum in Java?
+	enum is used to define collection of constants.
+
+What is the default behavior of equals() in java?
+	Compares object references, unless overridden.
+
+How we take Input from the user in java?
+The java.util.Scanner class is necessary for taking the user inputs. You can bring the class to your program using the 'import' keyword. 
+Then create the new instance of the 'scanner' class. you'll have to let it know your desired input stream.  The System.in stream is the standard input and output stream.The scanner object has methods like nextLine() for taking string input, nextInt() for taking integer input, nextDouble() for taking double input and so on. 
+
+=========================================================
+Work with Arrays in Java
+	 char vowels[] = new char[5];
+	char vowels[] = {'a', 'e', 'i', 'o', 'u'};
+Arrays are data structures containing multiple values of the same data type in sequential memory locations. Arrays can be of any primitive or non-primitive data type.
+
+Since arrays are reference types in Java, new is required to create new instances.
+Arrays can not be printed like regular variables. You'll have to use a loop or you'll have to convert the array into a string. 
+
+first element in an array will have 0 as its index 
+
+You'll need to first import the java.util.Arrays; and use the Arrays.toString() method to convert the array to a string. 
+
+
+============================================================
+String
+
+if (input.length() <= 10) in this we are applying the restriction that if the String has less than or equal to 10 characters into that then accept it.
+
+
