@@ -33,4 +33,13 @@ BufferedReader is class used to read text inout efficiently(Especially large inp
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+17:59 08-02-2026
+
+Difference betwee String name="ZI"; and String name=new String("ZI");
+
+The JVM maintains a portion of your computer's memory for storing strings. This portion is called the string pool.
+
+Whenever you create a new String in the literal way, the JVM first checks if that String already exists in the pool. If it does, JVM will reuse it. If it doesn't, then the JVM will create it.
+
+On the other hand, when you use the new operator, the JVM will always create a new String object no matter what.
 
