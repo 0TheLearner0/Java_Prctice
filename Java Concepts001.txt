@@ -1,0 +1,36 @@
+Java Concepts and Topics
+
+=========================================================
+Work with Arrays in Java
+	 char vowels[] = new char[5];
+	char vowels[] = {'a', 'e', 'i', 'o', 'u'};
+Arrays are data structures containing multiple values of the same data type in sequential memory locations. Arrays can be of any primitive or non-primitive data type.
+
+Since arrays are reference types in Java, new is required to create new instances.
+Arrays can not be printed like regular variables. You'll have to use a loop or you'll have to convert the array into a string. 
+
+first element in an array will have 0 as its index 
+
+You'll need to first import the java.util.Arrays; and use the Arrays.toString() method to convert the array to a string. 
+
+
+============================================================
+String
+
+if (input.length() <= 10) in this we are applying the restriction that if the String has less than or equal to 10 characters into that then accept it.
+
+========================================================
+
+BufferedReader>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+BufferedReader is class used to read text inout efficiently(Especially large input)
+	* It reads text line by line instead of character by 	character.
+ Why do we use BefferedReader?
+	*Faster than Scanner.  *Uses a buffer(temp-memory)
+ Where does it read from?
+	System.in: an input stream that reads data entered 	from the keyboard.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
